@@ -1,9 +1,8 @@
-const cifrao = '\u0024'
-const aMaiusculo = '\u0041'
-const tique = '\u2705'
-const hiragana = '\u3041'
+let minhaVar;
+let varNull = null;
 
-console.log(cifrao)
-console.log(aMaiusculo)
-console.log(tique)
-console.log(hiragana)
+let numero = 3;
+let texto = "Alura";
+
+console.log(typeof minhaVar) 
+console.log(typeof varNull)
