@@ -14,9 +14,10 @@ console.log(pessoa);
 const novaPessoa = {
     nome: "Pedro",
 }
-// pessoa = novaPessoa; // não podemos
-// fazer atribuição à variável constante. 
-// Logo, isso é o que não podemos fazer, mas se tivermos 
-// um objeto armazenado em uma variável constante, 
-// podemos manipulá-lo, porém, não podemos reatribuir algum valor naquela variável.
+/* pessoa = novaPessoa; // não podemos
+fazer atribuição à variável constante. 
+Logo, isso é o que não podemos fazer, mas se tivermos 
+um objeto armazenado em uma variável constante, 
+podemos manipulá-lo, porém, não podemos reatribuir algum valor naquela variável.*/
+
 
