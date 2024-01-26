@@ -1,0 +1,18 @@
+// const numeros = [43, 50, 65, 12];
+
+// const soma = numeros.reduce((acc, atual) => atual + acc, 0)
+
+// console.log(soma)
+// console.log('---------------------------------')
+// const numeros = [43, 50, 65, 12];
+// const soma = numeros.reduce(function(acc,atual) {
+//     return acc + atual;
+// },0)
+// console.log(soma)
+// console.log('-----------------------------')
+const numeros = [43, 50, 65, 12];
+function operacaoNumerica(acc, atual){
+    return atual + acc;
+}
+const soma = numeros.reduce(operacaoNumerica, 0);
+console.log(soma)
